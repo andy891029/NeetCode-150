@@ -1,5 +1,6 @@
+
 class Solution:
-    def hasDuplicate(self, nums: List[int]) -> bool:
+    def hasDuplicate(self, nums: list[int]) -> bool:
         def quick(arr):
             if len(arr) <= 1:
                 return arr
