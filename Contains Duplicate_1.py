@@ -14,3 +14,5 @@ class Solution:
             if sort[i] == sort[i+1]:
                 return True
         return False
+data = [4,32,12,5,22,23,22,17,42,9]
+print(Solution().hasDuplicate(data))
