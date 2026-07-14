@@ -42,4 +42,4 @@ class Solution:
                     return ans
         return ans
 '''
-#print(Solution().topKFrequent(nums,k)) 
+print(Solution().topKFrequent(nums,k)) 
