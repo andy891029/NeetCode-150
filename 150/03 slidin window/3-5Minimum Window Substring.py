@@ -1,4 +1,4 @@
-s = "OUZODYXAZV"; t = "XYZ"
+#s = "OUZODYXAZV"; t = "XYZ"
 class Solution:
     def minWindow(self, s: str, t: str) -> str:
         left = 0
@@ -25,4 +25,4 @@ class Solution:
         if min_length == float("inf"):
             return ""
         return s[result : result + min_length]
-print(Solution().minWindow(s,t))
+#print(Solution().minWindow(s,t))
